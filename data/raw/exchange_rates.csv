@@ -1,0 +1,6 @@
+fx_date,base_currency,target_currency,rate_to_aud
+2023-01-01,USD,AUD,1.48
+2023-01-02,USD,AUD,1.47
+2023-01-03,USD,AUD,1.49
+2023-01-04,USD,AUD,1.50
+2023-01-05,USD,AUD,1.51

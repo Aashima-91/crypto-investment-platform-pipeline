@@ -1,0 +1,6 @@
+customer_id,name,email,country,risk_profile
+1,Alice Johnson,alice.johnson@example.com,Australia,Medium
+2,Bob Smith,bob.smith@example.com,USA,High
+3,Charlie Patel,charlie.patel@example.com,India,Low
+4,Diana Lee,diana.lee@example.com,Singapore,Medium
+5,Eric Wong,eric.wong@example.com,Hong Kong,High

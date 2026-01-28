@@ -1,0 +1,7 @@
+event_id,event_type,source_file,event_timestamp,status
+1,ingest_start,customers.csv,2023-06-01T10:00:00Z,started
+2,ingest_complete,customers.csv,2023-06-01T10:00:05Z,success
+3,ingest_start,crypto_history.csv,2023-06-01T10:01:00Z,started
+4,ingest_complete,crypto_history.csv,2023-06-01T10:01:04Z,success
+5,ingest_start,transactions.csv,2023-06-01T10:02:00Z,started
+6,ingest_failed,transactions.csv,2023-06-01T10:02:03Z,error

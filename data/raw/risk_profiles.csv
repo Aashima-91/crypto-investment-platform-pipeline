@@ -1,0 +1,4 @@
+risk_profile,risk_level,risk_score,risk_description
+Low,Conservative,1,Low volatility preference
+Medium,Balanced,2,Moderate risk tolerance
+High,Aggressive,3,High risk tolerance and volatility acceptance

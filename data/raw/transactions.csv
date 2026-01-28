@@ -1,0 +1,8 @@
+transaction_id,customer_id,asset,type,quantity,price,date
+1001,1,bitcoin,buy,0.50,20000,2023-01-10
+1002,1,ethereum,buy,2.00,1500,2023-03-15
+1003,2,bitcoin,buy,1.20,18000,2022-11-20
+1004,3,ethereum,buy,5.00,1200,2023-05-01
+1005,4,bitcoin,buy,0.75,21000,2023-02-12
+1006,5,ethereum,buy,3.50,1600,2023-04-18
+1007,2,bitcoin,sell,0.20,23000,2023-06-10
