@@ -4,7 +4,6 @@ import pandas as pd
 from io import StringIO
 from pyspark.sql import functions as F
 
-#bronze_path = "/Workspace/Users/aashima91.gupta@gmail.com/bronze/"
 # Create the schema once 
 spark.sql("CREATE DATABASE IF NOT EXISTS bronze")
 
