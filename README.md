@@ -19,55 +19,6 @@ Gold (dim/fact)
 
 ---
 
-# 📐 **Architecture Diagram**
-
-```mermaid
-flowchart TD
-
-    subgraph Bronze["🟫 Bronze Layer (Raw)"]
-        B1[customers]
-        B2[customer_portfolios]
-        B3[transactions]
-        B4[crypto_history]
-        B5[market_prices_snapshot]
-        B6[assets]
-        B7[countries]
-        B8[risk_profiles]
-        B9[exchange_rates]
-        B10[audit_log]
-    end
-
-    subgraph SilverTech["🥈 Silver Technical (Clean)"]
-        S1[customers_clean]
-        S2[customer_portfolios_clean]
-        S3[transactions_clean]
-        S4[market_history_clean]
-        S5[market_prices_clean]
-    end
-
-    subgraph SilverBiz["🥈 Silver Business (Modeled)"]
-        SB1[customer_master]
-        SB2[asset_prices_daily]
-        SB3[customer_positions]
-        SB4[customer_transactions_enriched]
-    end
-
-    subgraph Gold["🥇 Gold Layer (Dim/Fact)"]
-        G1[dim_customer (SCD2)]
-        G2[dim_asset (SCD2)]
-        G3[dim_date]
-        G4[fact_portfolio_value]
-        G5[fact_transactions]
-        G6[fact_market_prices]
-    end
-
-    Bronze --> SilverTech
-    SilverTech --> SilverBiz
-    SilverBiz --> Gold
-```
-
----
-
 # 🗂 **Folder Structure**
 
 ```
@@ -282,7 +233,7 @@ flowchart LR
 # 🚀 **How to Run This Project**
 
 ### **1. Clone the repository**
-# Replace user with your github user id
+### Replace user with your github user id
 ```
 git clone https://github.com/{user}/crypto-investment-platform-pipeline.git
 ```
