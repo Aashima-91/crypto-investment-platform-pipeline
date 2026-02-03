@@ -282,8 +282,9 @@ flowchart LR
 # 🚀 **How to Run This Project**
 
 ### **1. Clone the repository**
+# Replace user with your github user id
 ```
-git clone https://github.com/Aashima-91/crypto-investment-platform-pipeline.git
+git clone https://github.com/{user}/crypto-investment-platform-pipeline.git
 ```
 
 ### **2. Import notebooks into Databricks**
@@ -322,8 +323,6 @@ This project delivers:
 - A star schema suitable for BI tools  
 - A portfolio‑ready demonstration of real‑world data engineering skills  
 
----
-
-- A **Power BI dashboard template**  
+--- 
 
 Just tell me what you want to add next.
