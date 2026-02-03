@@ -275,5 +275,3 @@ This project delivers:
 - A portfolio‑ready demonstration of real‑world data engineering skills  
 
 --- 
-
-Just tell me what you want to add n
